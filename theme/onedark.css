@@ -169,21 +169,14 @@ body {
 #write h1 {
     font-size: 2.5em;
     padding-bottom: .5em;
-    border-bottom: 5px double var(--text-color1);
+    border-bottom: 5px solid var(--text-color1);
 }
 
-#write h1:before {
-    content: '\00A7  ';
-}
 
 #write h2 {
     font-size: 2em;
     padding-bottom: .5em;
-    border-bottom: 3px double var(--text-color1);
-}
-
-#write h2:before {
-    content: '\00A7  '
+    border-bottom: 3px solid var(--text-color1);
 }
 
 #write h3 {
